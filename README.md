@@ -1,6 +1,6 @@
 # Washington_Housing_Market_Regression_Analysis
 - Mid Semester Regression Analysis Project: Python, MySQL and Tableau Files included
-- In addition, each .xlsx/.csv files used for each analysis is provided
+- In addition, each .xls/.csv files used for each analysis is provided
 
 ### Purpose of Project
 - Develop the optimum regression model to predict target (price). .ipynb files contains comparison of all possible regression models with Linear Regression and K-Nearest Neighbors.

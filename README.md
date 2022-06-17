@@ -34,3 +34,24 @@
 - Number of data points: 21597
 - Number of features: 21
 - Target attribute: Price
+
+### Checking data shape, columns, datatypes, general exploration of data
+- We first explored the data in general, checking our data types, shape, and general info. I saw that we had infomation on the year built
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

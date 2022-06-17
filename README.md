@@ -2,6 +2,9 @@
 -Mid Semester Regression Analysis Project: Python, MySQL and Tableau Files included
 -In addition, each xlsx/csv files used for each analysis is provided
 
+### Purpose of Project:
+- Develope the optimum 
+
 ### Problem Definition:
 -Data: The data set consists of information on some 22,000 properties.  The dataset consisted of historic data of houses sold between May 2014 to May 2015. These are the definitions of data points provided: (Note: For some of the variables that are self explanatory, no definition has been provided)
 

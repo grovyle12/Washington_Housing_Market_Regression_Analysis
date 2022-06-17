@@ -2,10 +2,10 @@
 -Mid Semester Regression Analysis Project: Python, MySQL and Tableau Files included
 -In addition, each xlsx/csv files used for each analysis is provided
 
-### Purpose of Project:
+### Purpose of Project
 - Develope the optimum 
 
-### Problem Definition:
+### Problem Definition
 -Data: The data set consists of information on some 22,000 properties.  The dataset consisted of historic data of houses sold between May 2014 to May 2015. These are the definitions of data points provided: (Note: For some of the variables that are self explanatory, no definition has been provided)
 
 - Id: Unique identification number for the property.
@@ -19,17 +19,16 @@
 - Sqft_lot15: lotSize area in 2015(implies - some renovations). 
 
 ### Methodology
-- Description of data
-- Preprocess data
-- Visualize data
-- Build a Regression model
-- Check Regression Assumptions
-- Goodness of fit
-- Compare different Regression methods
+- Checking data shape, columns, datatypes, general exploration of data
+- Feature Extraction, general data cleaning/column dropping, checking for null values
+- Exploratory Data Analysis
+- Data Transformation/Outlier Removal
+- Numerical/Categorical Transformation
+- Results
+- Tableau Results
 
 ### Description of data
-- Name of the data: Wine data from UCI Machine learning repository
-- Number of data points: 4898
-- Number of features: 11
-- Target attribute: Quality of wine
-- Range of target attribute: 3 to 9
+- Name of the data: Historic data of houses sold between May 2014 to May 2015, from Seatle, Washington 
+- Number of data points: 21597
+- Number of features: 21
+- Target attribute: Price

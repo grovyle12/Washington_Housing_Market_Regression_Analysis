@@ -37,7 +37,7 @@
 
 ### General exploration of data, Feature Extraction, general data cleaning/column dropping, checking for null values
 - We first explored the data in general, checking our data types, shape, and general info. I saw that we had infomation on the `yr_built` and saw it better to extract it as make a new column that gave us the actual age of the house. 
-- From working with MySQL, I noticed that there were duplicate `ID` values, so I removed those as well. However, no entire duplicate rows were detected. I also wanted to use the date column, so i removed the specific day from the `date` column, reducing my individual datesfrom 372 to 13.
+- From working with MySQL, I noticed that there were duplicate `ID` values, so I removed those as well. However, no entire duplicate rows were detected. I also wanted to use the date column, so i removed the specific day from the `date` column, reducing my individual dates from 372 to 13.
 - In terms of dropping columns, `waterfront`,`view`,`yr_renovated` were all dropped because the majority of their data  (95%-99%) was represented by one column. This leads to over-represention by one data point, thus defeating the purpose of analysis to use that feature in our model. `ID` was dropped as it is of no value to us, and `zipcode` was dropped as there was no effective way to bin them, as geographicaly the zipcodes are not close to each other numerically. 
 - I also wanted to see if the number of days since the property was sold had any bearing on price, so I extracted `date` and turned it into `days_sold` (I would later drop this column, as it has no bearing on the average price)
 ### Exploratory Data Analysis

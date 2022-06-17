@@ -6,7 +6,7 @@
 ### Purpose of Project
 - Develop the optimum regression model to predict target (price). .ipynb files contains comparison of all possible regression models with Linear Regression and K-Nearest Neighbors.
 - Use MySQL to explore insights into data, including unique values and average prices based on various features.
-- Use Tableu to garder further insights, including those of house built from 1900-1999, 2000-2010, and 2010-beyond.
+- Use Tableau to garder further insights, including those of house built from 1900-1999, 2000-2010, and 2010-beyond.
 
 ### Problem Definition
 -Data: The data set consists of information on some 22,000 properties.  The dataset consisted of historic data of houses sold between May 2014 to May 2015 in Seattle, Washington. These are the definitions of data points provided: (Note: For some of the variables that are self explanatory, no definition has been provided).

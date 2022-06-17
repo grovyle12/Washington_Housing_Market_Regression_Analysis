@@ -46,20 +46,11 @@
 ### Data Transformation/Outlier Removal
 - This part of my analysis took the longest. For the columns `sqft_living`,`sqft_lot`,`sqft_above`,`sqft_living15`,`price`, I used a logarithmic transfomation, which is normally used where the data has a positively skewed distribution. However, for `age`, the log transformation didn't work well. I ended up using a boxcox transformation for that column, which still didn't give me a perfect normal distribution, but there was a big improvement overall. I used some boxplots to take a look at how many outliers we have in general, then i cleaned each column of outliers. I made a function to change the upper and lower limits at my discretion.
 ### Normalization/Encoding/Results
-- In the code, I used OneHotEncoding for my categorical columns. I decided to see what they optimum transformer for a linear regression would be, as well as the optimum transformer for a k-nearest neighbors algorithm. In the code for linear regression, the resulting graph shows each transformation and the resulting r-squared, mean square error, mean absolute error, and adjusted r-squared as our measures of error. A min/max data transformation shows the best results, but only marginally. In terms of k-nearest neighbors, for k values 1 to 50, 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- In the code, I used OneHotEncoding for my categorical columns. I decided to see what they optimum transformer for a linear regression would be, as well as the optimum transformer for a k-nearest neighbors algorithm. In the code for linear regression, the resulting graph shows each transformation and the resulting r-squared, mean square error, mean absolute error, and adjusted r-squared as our measures of error. A min/max data transformation shows the best results, but only marginally. In terms of k-nearest neighbors, for k values 1 to 50, the best model in terms of our measure of error, would be a Standard Scaler with a K value of 15. This gaves us an adjusted r-square score of .7769
+### Tableau Analysis.
+- With reference to the Dashboard, Category A refers to houses built from 1900 to 1999, Category B refers to houses built from 2000 to 2009, and Category C refers to houses built from 2010 onward to 2015. The first bar graph breaks down bedrooms, and their rating, and finnaly breaks them down to there average price. I found this first to be useful to see what bed and grade combinations lead to the most expensive type of house. Not surprisingly, the more bedrooms and the higher the grade, the more expensive the house
+- Our second graph is the most intricate but in my opionion the most insightful. While looking at the geographical locations in Seatle, the map is set to show us the cheapest house per zipcode, which the minimum price being at least 650K. This is one insight into houses costing 650K or more, built from 2000 to 2009. Senior management can take a look at the cheapest houses with respect to a 650K minumum, and see if location plays any role in cost. From the geographical map, we can see the northwest part of Seatle, near Lake Washington near downtown, seems to be the most expensive area, with zipcode 98037 having it's cheapest house at 6,9 million dollars. (Note: I desired to place a filter to select specific zipcodes, but due to techical errors, this was not possible.)
+- Our last graph is a more traditional represenation of the average price of our houses with respect to zipcode, and not surprisingly zipcode 98037 has the highest average prices for houses with house built from 2010 to 2015.
+### Conclusion/Areas of Improvment/References
+- Overall, I feel I 'lost the plot' when it came to analyzing houses with 650K or more; I became too focused on finding the 'perfect' model. I also believe my ability to discern numerical vs categorical data could use improvment, but I've accepted this takes time and practical experience. I am happy with how much my for loops have improved; it was a weak point when I began coding. Still, there were plenty of times I could have used for loops for a more effecient analysis, such as when I applied the log transformation to some of my columns. 
+- I used various resources to assist in this code, in particular for my graphs. My teacher, Himanshu Aggarwal, assisted me a great deal. In general, I used stack overflow for various references, and in particular, this thread, which showed me how to annotate my line plots: https://stackoverflow.com/questions/43374920/how-to-automatically-annotate-maximum-value-in-pyplot. Should you have any questions about this project please contact me at mauricio.ruiz93@outlook.com

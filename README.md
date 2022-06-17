@@ -1,14 +1,15 @@
 # Washington_Housing_Market_Regression_Analysis
 - Mid Semester Regression Analysis Project: Python, MySQL and Tableau Files included
 - In addition, each .xls/.csv files used for each analysis is provided
+- For each folder provided, the respective analysis file along with the paired .xls/.csv
 
 ### Purpose of Project
 - Develop the optimum regression model to predict target (price). .ipynb files contains comparison of all possible regression models with Linear Regression and K-Nearest Neighbors.
-- Use MySQL to explore insights into data, including unique values and average prices based on various features
-- Use Tableu to garder further insights, including those of house built from 1900-1999, 2000-2010, and 2010-beyond
+- Use MySQL to explore insights into data, including unique values and average prices based on various features.
+- Use Tableu to garder further insights, including those of house built from 1900-1999, 2000-2010, and 2010-beyond.
 
 ### Problem Definition
--Data: The data set consists of information on some 22,000 properties.  The dataset consisted of historic data of houses sold between May 2014 to May 2015. These are the definitions of data points provided: (Note: For some of the variables that are self explanatory, no definition has been provided)
+-Data: The data set consists of information on some 22,000 properties.  The dataset consisted of historic data of houses sold between May 2014 to May 2015. These are the definitions of data points provided: (Note: For some of the variables that are self explanatory, no definition has been provided).
 
 - Id: Unique identification number for the property.
 - date: date the house was sold.

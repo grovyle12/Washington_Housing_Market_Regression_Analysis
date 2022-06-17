@@ -36,7 +36,7 @@
 - Target attribute: Price
 
 ### Checking data shape, columns, datatypes, general exploration of data
-- We first explored the data in general, checking our data types, shape, and general info. I saw that we had infomation on the year built
+- We first explored the data in general, checking our data types, shape, and general info. I saw that we had infomation on the `yr_built`
 
 
 
